@@ -8,7 +8,7 @@ Provided code:
 Data format:
 | Column name | Description |
 | --- | ----------- |
-| title | Title of the news |
+| title | title of the news |
 | subtitle | optional subtitle or `null` |
 
 Example of the result json file located [here](https://raw.githubusercontent.com/satween/mdz/master/data.json) (if you do not want to run this code)
