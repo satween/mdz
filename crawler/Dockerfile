@@ -10,8 +10,8 @@ RUN pip3 -q install pip --upgrade
 
 RUN pip3 install jupyter
 RUN mkdir /workspace
-COPY homework_1_valeev.ipynb /workspace/homework_1_valeev.ipynb
+COPY homework_2_valeev.ipynb /workspace/homework_2_valeev.ipynb
 WORKDIR /workspace
-EXPOSE 8888
+EXPOSE 8080
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser","--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]
+CMD ["jupyter", "notebook", "--port=8080", "--no-browser","--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]
