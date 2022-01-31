@@ -22,7 +22,7 @@ To build and run docker container you can execute `setup_docker.sh` (may require
 Or you can build and run them manually
 
 ```
-docker build -t mdz .
+docker build -t mdz hw1_2
 docker run -p 8080:8080 --name mdz mdz
 ```
 
