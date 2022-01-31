@@ -10,7 +10,7 @@ RUN pip3 -q install pip --upgrade
 
 RUN pip3 install jupyter
 RUN mkdir /workspace
-COPY homework_2_valeev.ipynb /workspace/homework_2_valeev.ipynb
+COPY homework_3_valeev.ipynb /workspace/homework_3_valeev.ipynb
 WORKDIR /workspace
 EXPOSE 8080
 
